@@ -9,7 +9,7 @@ public class C01_AsciiTable {
         String str="banan";
 
         System.out.println(sayi+harf);//10+97
-        System.out.println(str+harf);//banana
+        System.out.println(str+harf);//banana String strong demiştik string güclüdür kendinin sözü geçer.
         System.out.println(harf+2);//97+2
 
         //char yeniHarf=harf+2;

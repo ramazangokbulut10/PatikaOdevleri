@@ -2,7 +2,7 @@ package day04_dataCasting;
 
 public class C03_AutoWidening {
     public static void main(String[] args) {
-
+        // AutoWidening = Otomatik veri tipi genisletme denir.
         byte sayi1=23;
         short sayi2=55;
 
@@ -15,7 +15,7 @@ public class C03_AutoWidening {
         //Burada java önce eşitlikten sonrasını yapıp sonra variableye eşitlediğini inceleyeceğiz
         sayi4=(double)sayi2/sayi1;// sayi2 yi double yaptık ve böylece geniş olana göre cevap verdi.
         System.out.println(sayi4);
-        sayi4=sayi2/sayi1;        // double yi yazmayınca cevap 2.0 çıkıyor
+        sayi4=sayi2/sayi1;        // double yi yazmayınca cevap 2.0 çıkıyor cunku short byte'den guclu onun dedigi oluyor.
         System.out.println(sayi4);
       /*  char harf='b';
 

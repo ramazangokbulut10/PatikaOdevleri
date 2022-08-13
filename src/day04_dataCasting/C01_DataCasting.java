@@ -4,9 +4,12 @@ import java.util.Scanner;
 
 public class C01_DataCasting {
     public static void main(String[] args) {
+        // Data Casting (Veri Sınfı Degiştirme)
+        // Veri tipini değiştirmek kısacası
 
-        char harf='a';
-        char yeniHarf=(char)(harf+1);
+        char harf='a'; // Tek tırnağın içinde sadece bir tane harf veya rakam olur.
+        // Char olması için tek tırnak olması gerek. char'a rakam da yapabiliriz. char=97 çıktısı "a" olur
+        char yeniHarf=(char)(harf+1); // Kod her zaman esittirin(=) sağ tarafını yapar.  çıktısı "b" dir.
 
         System.out.println(yeniHarf);
 

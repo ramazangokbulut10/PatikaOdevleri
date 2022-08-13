@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C06_Scanner {
     public static void main(String[] args) {
         /*
-        kullanıcıdan ismini soismini ve yasını alip girilen
+        kullanıcıdan ismini soyismini ve yasını alip girilen
         bilgiler=seyfi capar 34 seklinde yazdıran
          */
         Scanner scan=new Scanner(System.in);

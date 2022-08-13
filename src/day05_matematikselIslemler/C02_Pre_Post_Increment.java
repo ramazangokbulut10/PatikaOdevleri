@@ -5,11 +5,12 @@ public class C02_Pre_Post_Increment {
 
         int sayi=10;
 
-        System.out.println("pre-increment : "+ ++sayi);
+        System.out.println("pre-increment : "+ ++sayi); // sayı 11 oldu
 
-        System.out.println("post-increment : "+ sayi++);
+        System.out.println("post-increment : "+ sayi++); // yazdırdık 11 olarak sonra arttırdık
 
-        System.out.println("post-increment'den sonra : "+sayi);
+        System.out.println("post-increment'den sonra : "+ sayi); // sayı variablenı yazdırınca "12" oldu. cunku
+        // bir üst satırda arttırdık ama yazdırmadık.
 
 //---------------------------------------------------------------------------------------------------
 

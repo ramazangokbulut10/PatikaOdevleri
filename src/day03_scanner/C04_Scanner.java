@@ -9,8 +9,9 @@ public class C04_Scanner {
         //girilen ismi
         //isminiz:Mustafa şeklinde yazdırın
 
-        //insanların dünyasından kodlarınızın bulundugu class a dege almak için
-        //Scanner class ini kullanırız
+        //insanların dünyasından kodlarınızın bulundugu class'a deger almak için
+        //Scanner classini kullanırız.
+        // Scan olusturdugumuz isimdir istedigini yazarız ama çoğunlukla "scan" kullanılır.
 
         Scanner scan=new Scanner(System.in);
         System.out.println("İsminizi girin:");

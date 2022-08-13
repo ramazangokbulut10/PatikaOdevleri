@@ -15,5 +15,8 @@ public class C03_Swap2 {
         System.out.println("Swaptan sonra sayi1:"+sayi1);
         System.out.println("Swaptan sonra sayi2:"+sayi2);
 
+        // Kum sorusu gibi düşün, sayı 3 diye boş kova olusturup, oraya da atayabilirdik böyle de kafana göre kankam :)
+
+
     }
 }

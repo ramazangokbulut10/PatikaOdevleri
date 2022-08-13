@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class C05_Scanner {
     public static void main(String[] args) {
-        /* kullanıcıdan alınan iki sayıyı çarpma
-         */
-
+        /* kullanıcıdan alınan iki sayıyı çarpma */
 
         Scanner scan=new Scanner(System.in);
 
