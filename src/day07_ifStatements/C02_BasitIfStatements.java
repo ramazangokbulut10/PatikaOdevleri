@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class C02_BasitIfStatements {
     public static void main(String[] args) {
 
-        int sayi;
+        //   int sayi;   bu şekilde boş bırakabiliriz.
         Scanner scan=new Scanner(System.in);
         System.out.println("Sayı girin: ");
-        sayi=scan.nextInt();
+        int sayi=scan.nextInt();
 
         if (sayi>0)
         {
@@ -27,5 +27,11 @@ public class C02_BasitIfStatements {
         {
             System.out.println("Sayı 5'in tam katı");
         }
+        /*
+        Basit if cumleleri kodun diger parcalarından bagımsızdır,Sadece bir şart kontrol eder,şart sağlanıyorsa
+        if bodysi calisir. Yoksa calismaz!
+        Birden fazla basit if cumlesi varsa girilen şarta bağlı olarak tumunde if bodysi calisabilir. Kısmen if bodyleri
+        calisabilir veya hicbir if bodysi calismayabilir.
+         */
     }
 }

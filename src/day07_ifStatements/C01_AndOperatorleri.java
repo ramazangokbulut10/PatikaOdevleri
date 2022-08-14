@@ -11,6 +11,7 @@ public class C01_AndOperatorleri {
         System.out.println(a<0 && b<20 && c>=b);//false(&& ilk false bulduğunda diğerlerini kontrol etmez)
 
         System.out.println(a<0 & b<20 & c>=b);//false(& tüm şartları kontroleder sonra cevabı döndürür.)
+        // yukarıdaki & tek and işareti şartların tamamını kontrol eder ve yavaş çalışır sonuçlar aynı olur.
 
 
 
