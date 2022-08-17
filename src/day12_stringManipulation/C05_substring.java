@@ -5,11 +5,11 @@ public class C05_substring {
 
         String input="Veli";
 
-        String tersInput=input.substring(3)+
-                input.substring(2,3)+
-                input.substring(1,2)+
-                input.substring(0,1);
-        System.out.println(tersInput);
+        String tersInput=input.substring(3)+  //  i
+                input.substring(2,3)+ // l
+                input.substring(1,2)+ // e
+                input.substring(0,1); // V
+        System.out.println(tersInput); // ileV
 
     }
 }

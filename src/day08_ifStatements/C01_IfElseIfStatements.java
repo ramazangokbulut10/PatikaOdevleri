@@ -2,12 +2,12 @@ package day08_ifStatements;
 
 import java.util.Scanner;
 
-public class C01_IfElseIfStatements {
+public class    C01_IfElseIfStatements {
     public static void main(String[] args) {
 
         Scanner scan=new Scanner (System.in);
         System.out.println("Lütfen bir gün girin");
-        String gun=scan.next().toLowerCase();
+        String gun=scan.next().toLowerCase(); // kullanıcı ne girerse girsin kücük harf'e duyarlı yaptık.
 
         if (gun.equals("pazartesi") ){
             System.out.println("Paz");
@@ -22,13 +22,11 @@ public class C01_IfElseIfStatements {
         }else if (gun.equals("cumartesi")){
             System.out.println("Cum");
         }else if (gun.equals("pazar")){
-            System.out.println("paz");
+            System.out.println("Paz");
         }else {
             System.out.println("Hatalı giriş");
         }
 
-
         }
-
     }
 

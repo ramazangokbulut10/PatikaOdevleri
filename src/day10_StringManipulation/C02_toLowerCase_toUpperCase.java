@@ -8,5 +8,6 @@ public class C02_toLowerCase_toUpperCase {
         String str="Beni psikopata baglamayin";
         System.out.println(str.toUpperCase(Locale.CANADA)); //CANADA daki harflere göre büyültme
         System.out.println(str.toUpperCase(Locale.forLanguageTag("Tr")));//Türkiye deki harfler olmadığı için böyle yaptık
+        // Olmayan diller icin "Locale.forLanguageTag" kullanırız 
     }
 }

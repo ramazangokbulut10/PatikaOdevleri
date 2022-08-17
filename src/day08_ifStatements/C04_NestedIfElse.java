@@ -17,7 +17,7 @@ public class C04_NestedIfElse {
         if (sayi<1000||sayi>9999)
         {
             System.out.println("Lütfen 4 basamaklı sayı girin");
-        } else if (sayi%5==0)
+        } else if (sayi%5==0)  // sayi 4 basamakli 5'e tam bölünebiliyor
         {
             if (sayi%10==0)
             {
@@ -25,7 +25,7 @@ public class C04_NestedIfElse {
             }else {
                 System.out.println("5’e bölünen tek sayı");
             }
-        }else {
+        }else { // sayi 5'e bölünmüyor.
             System.out.println("Tekrar deneyin");
         }
 

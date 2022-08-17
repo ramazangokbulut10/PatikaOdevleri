@@ -10,8 +10,8 @@ public class C03_RakamlarToplami {
         Scanner scan=new Scanner(System.in);
         System.out.println("4 basamaklı Pozitif bir Tamsayı girin:");
 
-        // Bir sayının birler basamağındaki sayıyı yakalamak veyahut bulmak için o sayıyı  sayi % 10'a böleriz.
-        // Bir sayının birler basamağından kurtulmak için o sayıyı  10'a böleriz.  sayi/10
+        // Bir sayının birler basamağındaki sayıyı yakalamak veyahut bulmak için o sayıyı " sayi % 10'a böleriz."
+        // Bir sayının birler basamağından kurtulmak için o sayıyı " 10'a böleriz.  sayi/10"
         // Biz bu islemi sıfır olana  kadar tekrarlarız.
 
         int sayi=scan.nextInt();

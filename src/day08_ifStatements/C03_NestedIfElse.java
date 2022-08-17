@@ -7,19 +7,20 @@ public class C03_NestedIfElse {
         //Erkek-Kadın olup olmadığını kontrol etsin
         //Erkekse 65 yaş üzrinde ise emekli olsun
         //Kadınsa 60 yaş üzrinde ise emekli olsun
+        //Nested demek "iç içe" geçmek demektir.
 
         Scanner scan =new Scanner(System.in);
         System.out.println("Lütfen cinsiyetinizi yazın:");
-        char cinsiyet=scan.next().toUpperCase().charAt(0);
+        char cinsiyet=scan.next().toUpperCase().charAt(0); // cinsiyeti girilince ilk harfi tutmak icin yaptık.
 
         System.out.println("Lütfen yaşınızı giriniz:");
         double yas=scan.nextDouble();
 
         if (cinsiyet =='E')
-        {if (yas>=65)
+        {if (yas>=65) // iç içe if yaptık nested if denir.
         {
             System.out.println("Cinsiyet: Erkek\nYaş: "+yas+"\nEmeklisiniz");
-        }else {
+        }else { // if bodys'nin şartının zıttını verir.
             System.out.println("Daha emekli değilsiniz, Çalışmanız gerekiyor...");
         }
         }

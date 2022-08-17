@@ -1,6 +1,6 @@
 package day09_ternary;
 
-public class C06_SwitchCase {
+public class    C06_SwitchCase {
     public static void main(String[] args) {
 
         //Farklı girişler de aynı Çıktıyı verme örneği

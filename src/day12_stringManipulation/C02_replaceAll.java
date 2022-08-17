@@ -2,6 +2,18 @@ package day12_stringManipulation;
 
 public class C02_replaceAll {
     public static void main(String[] args) {
+
+        /*
+        String methodlarından "replaceAll" methodu yerini değiştirme methodudur.
+
+        \\s  = tüm boşlukları kapsar.
+        \\S  = boşluk dışında her şeyi kapsar
+        \\w  = harf ve rakamları kapsar.
+        \\W  = harfler ve rakamlar dışında her şeyi kapsar
+        \\d  = rakamları kapsar
+        \\D  = Rakamlar dışındaki her şeyi kapsar.
+         */
+
         String str= "1Bu2gu3n Ja*va- cok g3uz/el";
         // str'i Bugun Java cok guzel haline getirin
         // replaceAll() deki all'un amaci ayni ozellikteki tum karakterleri kapsamasidir

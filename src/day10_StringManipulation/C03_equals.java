@@ -7,7 +7,7 @@ public class C03_equals {
         String str2="Ali CAN";
         String str3="Ali Can"+"";
         String str4="Ali Can";
-        String str5=new String("Ali Can");
+        String str5=new String("Ali Can"); // Non primitive data türlerinde yeni obje oluşturarakta tanımlayabiliriz.
 
         System.out.println(str1==str2);//false
 
@@ -25,5 +25,8 @@ public class C03_equals {
         //emin olmak isterseniz equals() kullanmalısınız
 
         //equals() kullandığımı
+
+        // Stringler icin (esit esit islemi yaparken equals() ) methodunu kullan.
+
     }
 }

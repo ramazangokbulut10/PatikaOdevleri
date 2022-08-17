@@ -3,6 +3,10 @@ package day12_stringManipulation;
 public class isEmpty {
     public static void main(String[] args) {
 
+        /*
+         isEmpty methodu verilen String'in uzunluğu sıfır yani boş ise "True" yoksa false döndürür.
+         */
+
         String input="Java cok guzel";
         String input1="";
         String input2=null;
