@@ -7,14 +7,9 @@ public class C00_returnDeneme {
 
         int sonuc=bolGetir();
         System.out.println(sonuc);
-
-
-
-
-
     }
 
-    private static int bolGetir() {
+    public static int bolGetir() {
         Scanner scan=new Scanner(System.in);
         System.out.println("Lutfen birinci sayıyı giriniz");
         int birinciSayı=scan.nextInt();

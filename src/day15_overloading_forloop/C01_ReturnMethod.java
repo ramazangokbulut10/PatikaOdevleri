@@ -1,5 +1,7 @@
 package day15_overloading_forloop;
 
+import day14_MethodCreation.C01_MethodCreation;
+
 public class C01_ReturnMethod {
     public static void main(String[] args) {
 
@@ -11,6 +13,7 @@ public class C01_ReturnMethod {
         int sonuc= carpGetir(sayi1,sayi2); // Argümenti biz ekledik sayıyı biz verdik methodun içinde alsakta olabilirdi
         // return methodlarda olusturduğun methodu bir değişkene mutlaka atamalısın!
         System.out.println(sonuc);
+        System.out.println(C00_returnDeneme.bolGetir());
 
     }
 
