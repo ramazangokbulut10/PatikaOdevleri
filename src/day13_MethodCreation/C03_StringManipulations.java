@@ -8,7 +8,7 @@ public class C03_StringManipulations {
         // “Java ogrenmek cok guzel.” sekline getirin.
 
         String input="  Java ogrenmek123 Cok guzel@  ";
-        System.out.println(input.startsWith("a",3));
+        System.out.println(input.startsWith("a",3)); // input'un 3. indexi "a" ile başlıyor demektir.
 
         input=input.trim();
         System.out.println(input);//Java ogrenmek123 Cok guzel@
@@ -18,7 +18,7 @@ public class C03_StringManipulations {
         System.out.println(input);
         input=input.replace("C","c");
         System.out.println(input);
-
+        
 
     }
 }

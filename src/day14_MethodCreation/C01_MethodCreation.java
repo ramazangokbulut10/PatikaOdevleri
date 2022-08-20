@@ -6,11 +6,12 @@ import java.util.Scanner;
 
 public class C01_MethodCreation {
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
-        System.out.println("4 harfli kelime gir :");
-        String kelime=scan.next();
-       terstenYazdir(kelime);
-        C04_MethodCreation.topla(8,2);//day12-C04 deki methodu çalıştırdık
+        /*
+        MethodCall demek "intellijiye" methodu createmethod yaptırmaktır.
+         */
+        terstenYazdir("Aley"); // yelA  Çıktısı alırız.
+        C04_MethodCreation.topla(8,2);//day13-C04 deki methodu çalıştırdık
+
     }
     public static void terstenYazdir(String input){
         String tersInput=input.substring(3)+

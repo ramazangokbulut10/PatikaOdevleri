@@ -18,10 +18,10 @@ public class C01_StringManipulation {
          String str1 = "$13.99";
          String str2 = "$10.55";
 
-         str1=str1.replace("$","");
+         str1=str1.replace("$",""); // dolar işaretleri yerine hiçlik koyduk.
          str2=str2.replace("$","");
 
-        System.out.println("$"+(Double.parseDouble(str1)+Double.parseDouble(str2)));
+        System.out.println("$"+(Double.parseDouble(str1)+Double.parseDouble(str2))); // String bir variable double'a çevirdik.
 
 
 

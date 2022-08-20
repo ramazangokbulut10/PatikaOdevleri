@@ -22,7 +22,7 @@ public class C02_StringManipulation {
         int kontrol=0;
 
         if(sifre.charAt(0)>='a' && sifre.charAt(0)<='z'){
-            System.out.println("İlk harf Büyükü olmali");
+            System.out.println("İlk harf Büyük   olmali");
         }else {
             kontrol++;
         }if (sifre.charAt(sifre.length()-1)>='A' && sifre.charAt(sifre.length()-1)<='Z'){
